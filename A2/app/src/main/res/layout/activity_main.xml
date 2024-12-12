@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título en la parte superior -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convertidor de Unidades"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />   <!-- Negrita -->
+
+
+        <!-- Botón Longitud con ícono -->
+        <Button
+            android:id="@+id/btn_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitud"
+            android:drawableLeft="@drawable/ic_length"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Peso/Masa con ícono -->
+        <Button
+            android:id="@+id/btn_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masa"
+            android:drawableLeft="@drawable/ic_weight"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Temperatura con ícono -->
+        <Button
+            android:id="@+id/btn_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperatura"
+            android:drawableLeft="@drawable/ic_temperature"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Volumen con ícono -->
+        <Button
+            android:id="@+id/btn_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volumen"
+            android:drawableLeft="@drawable/ic_volume"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Velocidad con ícono -->
+        <Button
+            android:id="@+id/btn_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Velocidad"
+            android:drawableLeft="@drawable/ic_speed"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Área con ícono -->
+        <Button
+            android:id="@+id/btn_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área"
+            android:drawableLeft="@drawable/ic_area"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+
+        <!-- Botón Tiempo con ícono -->
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiempo"
+            android:drawableLeft="@drawable/ic_time"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

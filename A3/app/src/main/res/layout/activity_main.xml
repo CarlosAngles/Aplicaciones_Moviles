@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="240dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="36dp"
+        android:text="Tic Tac Toe"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#A4A4A4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_one_player"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="72dp"
+        android:text="Un Jugador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintWidth_percent="0.6" />
+
+    <Button
+        android:id="@+id/btn_two_players"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:text="Dos Jugadores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_one_player"
+        app:layout_constraintWidth_percent="0.6" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_two_players"
+        app:layout_constraintWidth_percent="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
